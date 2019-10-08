@@ -5,7 +5,7 @@ module.exports = function (app) {
         res.json(bars);
     });
 
-    app.post("/api/patrons", function(req, res) {
+    app.post("/api/bars", function(req, res) {
         var barMatch = {
             name: "",
             photo: "",
@@ -34,7 +34,7 @@ module.exports = function (app) {
                 }
             }
         }
-        patrons.push(userData);
+        bars.push(userData);
         res.json(barMatch);
     });
 }

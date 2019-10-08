@@ -163,6 +163,6 @@ var bars = [
 
 module.exports = bars;
 
-var patrons = [];
+// var patrons = [];
 
-module.exports = patrons;
+// module.exports = patrons;
