@@ -1,13 +1,13 @@
 Dive Finder
 IMAGE OF SITE:
-
-
+![home page](https://raw.githubusercontent.com/Rajsodhi1/finder-express/master/finderpage1.png)
+![survey page](https://raw.githubusercontent.com/Rajsodhi1/finder-express/master/finderpage2.png)
 Description:
 This app is called Dive Finder. You land on the start page with a button that links to 10 question survey. You answer the questions about various bar preferences on a scale of 1-5, with ! being "Disagree" and 5 being "Agree." After filling out the survey the app will return the bar that best matches your preferences.
 
 CODE SNIPPET:
 This section of the code takes in users survey responses and compares the difference between current user's scores against the scores from each bar. One thing to note is we are comparing the absolute value of the differences so we don't get bad data with negative numbers.
-
+![snippet](https://raw.githubusercontent.com/Rajsodhi1/finder-express/master/snippet12.png)
 
 
 
